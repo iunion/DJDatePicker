@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A79DE381F4EA87B004ADA8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE371F4EA87B004ADA8A /* main.m */; };
+		5A79DE3B1F4EA87B004ADA8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE3A1F4EA87B004ADA8A /* AppDelegate.m */; };
+		5A79DE3E1F4EA87B004ADA8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE3D1F4EA87B004ADA8A /* ViewController.m */; };
+		5A79DE411F4EA87B004ADA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A79DE3F1F4EA87B004ADA8A /* Main.storyboard */; };
+		5A79DE431F4EA87B004ADA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A79DE421F4EA87B004ADA8A /* Assets.xcassets */; };
+		5A79DE461F4EA87B004ADA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A79DE441F4EA87B004ADA8A /* LaunchScreen.storyboard */; };
+		5A79DE511F4EA87B004ADA8A /* DJDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE501F4EA87B004ADA8A /* DJDatePickerTests.m */; };
+		5A79DE5C1F4EA87B004ADA8A /* DJDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE5B1F4EA87B004ADA8A /* DJDatePickerUITests.m */; };
+		5A79DE6C1F4EA8DE004ADA8A /* DJDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE6B1F4EA8DE004ADA8A /* DJDatePicker.m */; };
+		5A79DE6E1F4EA902004ADA8A /* DJDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A79DE6D1F4EA902004ADA8A /* DJDatePicker.xib */; };
+		5A79DE711F4ED2D8004ADA8A /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE701F4ED2D8004ADA8A /* NSDate+Category.m */; };
+		5A79DE741F4ED659004ADA8A /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A79DE731F4ED659004ADA8A /* UIView+Size.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A79DE4D1F4EA87B004ADA8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A79DE2B1F4EA87B004ADA8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A79DE321F4EA87B004ADA8A;
+			remoteInfo = DJDatePicker;
+		};
+		5A79DE581F4EA87B004ADA8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A79DE2B1F4EA87B004ADA8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A79DE321F4EA87B004ADA8A;
+			remoteInfo = DJDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A79DE331F4EA87B004ADA8A /* DJDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A79DE371F4EA87B004ADA8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A79DE391F4EA87B004ADA8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A79DE3A1F4EA87B004ADA8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A79DE3C1F4EA87B004ADA8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A79DE3D1F4EA87B004ADA8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A79DE401F4EA87B004ADA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A79DE421F4EA87B004ADA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A79DE451F4EA87B004ADA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A79DE471F4EA87B004ADA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A79DE4C1F4EA87B004ADA8A /* DJDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A79DE501F4EA87B004ADA8A /* DJDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJDatePickerTests.m; sourceTree = "<group>"; };
+		5A79DE521F4EA87B004ADA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A79DE571F4EA87B004ADA8A /* DJDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A79DE5B1F4EA87B004ADA8A /* DJDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJDatePickerUITests.m; sourceTree = "<group>"; };
+		5A79DE5D1F4EA87B004ADA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A79DE6A1F4EA8DE004ADA8A /* DJDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDatePicker.h; sourceTree = "<group>"; };
+		5A79DE6B1F4EA8DE004ADA8A /* DJDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDatePicker.m; sourceTree = "<group>"; };
+		5A79DE6D1F4EA902004ADA8A /* DJDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJDatePicker.xib; sourceTree = "<group>"; };
+		5A79DE6F1F4ED2D8004ADA8A /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		5A79DE701F4ED2D8004ADA8A /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		5A79DE721F4ED659004ADA8A /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		5A79DE731F4ED659004ADA8A /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A79DE301F4EA87B004ADA8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79DE491F4EA87B004ADA8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79DE541F4EA87B004ADA8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A79DE2A1F4EA87B004ADA8A = {
+			isa = PBXGroup;
+			children = (
+				5A79DE351F4EA87B004ADA8A /* DJDatePicker */,
+				5A79DE4F1F4EA87B004ADA8A /* DJDatePickerTests */,
+				5A79DE5A1F4EA87B004ADA8A /* DJDatePickerUITests */,
+				5A79DE341F4EA87B004ADA8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A79DE341F4EA87B004ADA8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A79DE331F4EA87B004ADA8A /* DJDatePicker.app */,
+				5A79DE4C1F4EA87B004ADA8A /* DJDatePickerTests.xctest */,
+				5A79DE571F4EA87B004ADA8A /* DJDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A79DE351F4EA87B004ADA8A /* DJDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5A79DE691F4EA8C0004ADA8A /* DJDatePicker */,
+				5A79DE391F4EA87B004ADA8A /* AppDelegate.h */,
+				5A79DE3A1F4EA87B004ADA8A /* AppDelegate.m */,
+				5A79DE3C1F4EA87B004ADA8A /* ViewController.h */,
+				5A79DE3D1F4EA87B004ADA8A /* ViewController.m */,
+				5A79DE3F1F4EA87B004ADA8A /* Main.storyboard */,
+				5A79DE421F4EA87B004ADA8A /* Assets.xcassets */,
+				5A79DE441F4EA87B004ADA8A /* LaunchScreen.storyboard */,
+				5A79DE471F4EA87B004ADA8A /* Info.plist */,
+				5A79DE361F4EA87B004ADA8A /* Supporting Files */,
+			);
+			path = DJDatePicker;
+			sourceTree = "<group>";
+		};
+		5A79DE361F4EA87B004ADA8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A79DE371F4EA87B004ADA8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A79DE4F1F4EA87B004ADA8A /* DJDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A79DE501F4EA87B004ADA8A /* DJDatePickerTests.m */,
+				5A79DE521F4EA87B004ADA8A /* Info.plist */,
+			);
+			path = DJDatePickerTests;
+			sourceTree = "<group>";
+		};
+		5A79DE5A1F4EA87B004ADA8A /* DJDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A79DE5B1F4EA87B004ADA8A /* DJDatePickerUITests.m */,
+				5A79DE5D1F4EA87B004ADA8A /* Info.plist */,
+			);
+			path = DJDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		5A79DE691F4EA8C0004ADA8A /* DJDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5A79DE6A1F4EA8DE004ADA8A /* DJDatePicker.h */,
+				5A79DE6B1F4EA8DE004ADA8A /* DJDatePicker.m */,
+				5A79DE6D1F4EA902004ADA8A /* DJDatePicker.xib */,
+				5A79DE6F1F4ED2D8004ADA8A /* NSDate+Category.h */,
+				5A79DE701F4ED2D8004ADA8A /* NSDate+Category.m */,
+				5A79DE721F4ED659004ADA8A /* UIView+Size.h */,
+				5A79DE731F4ED659004ADA8A /* UIView+Size.m */,
+			);
+			path = DJDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A79DE321F4EA87B004ADA8A /* DJDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A79DE601F4EA87B004ADA8A /* Build configuration list for PBXNativeTarget "DJDatePicker" */;
+			buildPhases = (
+				5A79DE2F1F4EA87B004ADA8A /* Sources */,
+				5A79DE301F4EA87B004ADA8A /* Frameworks */,
+				5A79DE311F4EA87B004ADA8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJDatePicker;
+			productName = DJDatePicker;
+			productReference = 5A79DE331F4EA87B004ADA8A /* DJDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A79DE4B1F4EA87B004ADA8A /* DJDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A79DE631F4EA87B004ADA8A /* Build configuration list for PBXNativeTarget "DJDatePickerTests" */;
+			buildPhases = (
+				5A79DE481F4EA87B004ADA8A /* Sources */,
+				5A79DE491F4EA87B004ADA8A /* Frameworks */,
+				5A79DE4A1F4EA87B004ADA8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A79DE4E1F4EA87B004ADA8A /* PBXTargetDependency */,
+			);
+			name = DJDatePickerTests;
+			productName = DJDatePickerTests;
+			productReference = 5A79DE4C1F4EA87B004ADA8A /* DJDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A79DE561F4EA87B004ADA8A /* DJDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A79DE661F4EA87B004ADA8A /* Build configuration list for PBXNativeTarget "DJDatePickerUITests" */;
+			buildPhases = (
+				5A79DE531F4EA87B004ADA8A /* Sources */,
+				5A79DE541F4EA87B004ADA8A /* Frameworks */,
+				5A79DE551F4EA87B004ADA8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A79DE591F4EA87B004ADA8A /* PBXTargetDependency */,
+			);
+			name = DJDatePickerUITests;
+			productName = DJDatePickerUITests;
+			productReference = 5A79DE571F4EA87B004ADA8A /* DJDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A79DE2B1F4EA87B004ADA8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DennisDeng;
+				TargetAttributes = {
+					5A79DE321F4EA87B004ADA8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5A79DE4B1F4EA87B004ADA8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A79DE321F4EA87B004ADA8A;
+					};
+					5A79DE561F4EA87B004ADA8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A79DE321F4EA87B004ADA8A;
+					};
+				};
+			};
+			buildConfigurationList = 5A79DE2E1F4EA87B004ADA8A /* Build configuration list for PBXProject "DJDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A79DE2A1F4EA87B004ADA8A;
+			productRefGroup = 5A79DE341F4EA87B004ADA8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A79DE321F4EA87B004ADA8A /* DJDatePicker */,
+				5A79DE4B1F4EA87B004ADA8A /* DJDatePickerTests */,
+				5A79DE561F4EA87B004ADA8A /* DJDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A79DE311F4EA87B004ADA8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A79DE461F4EA87B004ADA8A /* LaunchScreen.storyboard in Resources */,
+				5A79DE431F4EA87B004ADA8A /* Assets.xcassets in Resources */,
+				5A79DE411F4EA87B004ADA8A /* Main.storyboard in Resources */,
+				5A79DE6E1F4EA902004ADA8A /* DJDatePicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79DE4A1F4EA87B004ADA8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79DE551F4EA87B004ADA8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A79DE2F1F4EA87B004ADA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A79DE3E1F4EA87B004ADA8A /* ViewController.m in Sources */,
+				5A79DE3B1F4EA87B004ADA8A /* AppDelegate.m in Sources */,
+				5A79DE711F4ED2D8004ADA8A /* NSDate+Category.m in Sources */,
+				5A79DE741F4ED659004ADA8A /* UIView+Size.m in Sources */,
+				5A79DE381F4EA87B004ADA8A /* main.m in Sources */,
+				5A79DE6C1F4EA8DE004ADA8A /* DJDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79DE481F4EA87B004ADA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A79DE511F4EA87B004ADA8A /* DJDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79DE531F4EA87B004ADA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A79DE5C1F4EA87B004ADA8A /* DJDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A79DE4E1F4EA87B004ADA8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A79DE321F4EA87B004ADA8A /* DJDatePicker */;
+			targetProxy = 5A79DE4D1F4EA87B004ADA8A /* PBXContainerItemProxy */;
+		};
+		5A79DE591F4EA87B004ADA8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A79DE321F4EA87B004ADA8A /* DJDatePicker */;
+			targetProxy = 5A79DE581F4EA87B004ADA8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A79DE3F1F4EA87B004ADA8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A79DE401F4EA87B004ADA8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A79DE441F4EA87B004ADA8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A79DE451F4EA87B004ADA8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A79DE5E1F4EA87B004ADA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A79DE5F1F4EA87B004ADA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A79DE611F4EA87B004ADA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJ.DJDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A79DE621F4EA87B004ADA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJ.DJDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A79DE641F4EA87B004ADA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJ.DJDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJDatePicker.app/DJDatePicker";
+			};
+			name = Debug;
+		};
+		5A79DE651F4EA87B004ADA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJ.DJDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJDatePicker.app/DJDatePicker";
+			};
+			name = Release;
+		};
+		5A79DE671F4EA87B004ADA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJ.DJDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJDatePicker;
+			};
+			name = Debug;
+		};
+		5A79DE681F4EA87B004ADA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJ.DJDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A79DE2E1F4EA87B004ADA8A /* Build configuration list for PBXProject "DJDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A79DE5E1F4EA87B004ADA8A /* Debug */,
+				5A79DE5F1F4EA87B004ADA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A79DE601F4EA87B004ADA8A /* Build configuration list for PBXNativeTarget "DJDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A79DE611F4EA87B004ADA8A /* Debug */,
+				5A79DE621F4EA87B004ADA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A79DE631F4EA87B004ADA8A /* Build configuration list for PBXNativeTarget "DJDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A79DE641F4EA87B004ADA8A /* Debug */,
+				5A79DE651F4EA87B004ADA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A79DE661F4EA87B004ADA8A /* Build configuration list for PBXNativeTarget "DJDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A79DE671F4EA87B004ADA8A /* Debug */,
+				5A79DE681F4EA87B004ADA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A79DE2B1F4EA87B004ADA8A /* Project object */;
+}
