@@ -454,7 +454,7 @@
             switch (component)
             {
                 case 0:
-                    title = _monthArray[row];
+                    title = _monthArray[row%12];
                     break;
                 case 1:
                     title = _dayArray[row];
@@ -473,7 +473,7 @@
             switch (component)
             {
                 case 0:
-                    title = _monthArray[row];
+                    title = _monthArray[row%12];
                     break;
                 case 1:
                     title = _dayArray[row];
