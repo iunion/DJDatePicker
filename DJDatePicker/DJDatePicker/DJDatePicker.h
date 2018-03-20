@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 文本颜色
 @property (nonatomic, strong) UIColor *formateColor;
 // 显示时间格式
-@property (nonatomic, strong) NSString *formate;
+@property (nullable, nonatomic, strong) NSString *formate;
 
 // 年份
 // 文本颜色
@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *pickerItemColor;
 
 // 确定按钮
+@property (nonatomic, assign) BOOL showDoneBtn;
 // 确定按钮背景颜色
 @property (nonatomic, strong) UIColor *doneBtnBgColor;
 // 确定按钮文本颜色

@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(15, 20, self.view.frame.size.width-30, 30)];
-    label1.text = @"1.PickerStyle_YearMonthDayHourMinute";
+    label1.text = @"1. YearMonthDayHourMinute 年月日时分";
     UITextField *textField1 = [[UITextField alloc] initWithFrame:CGRectMake(15, 50, self.view.frame.size.width-30, 30)];
     textField1.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:label1];
@@ -42,7 +42,7 @@
     [textField1 becomeFirstResponder];
 
     UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(15, 80, self.view.frame.size.width-30, 30)];
-    label2.text = @"2.PickerStyle_MonthDayHourMinute";
+    label2.text = @"2. MonthDayHourMinute 月日时分";
     UITextField *textField2 = [[UITextField alloc] initWithFrame:CGRectMake(15, 110, self.view.frame.size.width-30, 30)];
     textField2.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:label2];
@@ -58,7 +58,7 @@
     textField2.inputView = datePicker2;
 
     UILabel *label3 = [[UILabel alloc] initWithFrame:CGRectMake(15, 140, self.view.frame.size.width-30, 30)];
-    label3.text = @"3.PickerStyle_YearMonthDay";
+    label3.text = @"3. YearMonthDay 年月日";
     UITextField *textField3 = [[UITextField alloc] initWithFrame:CGRectMake(15, 170, self.view.frame.size.width-30, 30)];
     textField3.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:label3];
@@ -74,7 +74,7 @@
     textField3.inputView = datePicker3;
 
     UILabel *label4 = [[UILabel alloc] initWithFrame:CGRectMake(15, 200, self.view.frame.size.width-30, 30)];
-    label4.text = @"4.PickerStyle_MonthDay";
+    label4.text = @"4. MonthDay 月日";
     UITextField *textField4 = [[UITextField alloc] initWithFrame:CGRectMake(15, 230, self.view.frame.size.width-30, 30)];
     textField4.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:label4];
@@ -90,7 +90,7 @@
     textField4.inputView = datePicker4;
 
     UILabel *label5 = [[UILabel alloc] initWithFrame:CGRectMake(15, 260, self.view.frame.size.width-30, 30)];
-    label5.text = @"5.PickerStyle_HourMinute";
+    label5.text = @"5. HourMinute 时分(24)";
     UITextField *textField5 = [[UITextField alloc] initWithFrame:CGRectMake(15, 290, self.view.frame.size.width-30, 30)];
     textField5.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:label5];

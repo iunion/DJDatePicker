@@ -78,6 +78,11 @@
     self.pickerStyle = pickerStyle;
     self.completeBlock = completeBlock;
     
+    if (!scrollToDate)
+    {
+        scrollToDate = [NSDate date];
+    }
+
     self.pickerDate = scrollToDate;
     
     [self defaultConfig];
@@ -97,6 +102,8 @@
     _dayArray = [[NSMutableArray alloc] initWithCapacity:0];
     _hourArray = [[NSMutableArray alloc] initWithCapacity:0];
     _minuteArray = [[NSMutableArray alloc] initWithCapacity:0];
+    
+    _showDoneBtn = YES;
     
     for (NSInteger i=0; i<60; i++)
     {
@@ -252,6 +259,27 @@
     _pickerItemColor = pickerItemColor;
     
     [self.picker reloadAllComponents];
+}
+
+- (void)setShowDoneBtn:(BOOL)showDoneBtn
+{
+    if (_showDoneBtn == showDoneBtn)
+    {
+        return;
+    }
+    
+    _showDoneBtn = showDoneBtn;
+    
+    if (_showDoneBtn)
+    {
+        self.pickerBgView.height = 210.0f;
+    }
+    else
+    {
+        self.pickerBgView.height = 260.0f;
+    }
+    
+    self.doneBtn.hidden = !_showDoneBtn;
 }
 
 - (void)setDoneBtnBgColor:(UIColor *)doneBtnBgColor

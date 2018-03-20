@@ -3,6 +3,8 @@ DJDatePicker
 
 DJDatePicker is a useful and powerful date picker for iphone**. <br/>
 
+![](https://github.com/iunion/DJDatePicker/blob/master/picker.gif)
+
 ## Requirements
 
 - iOS 4.0 or later
